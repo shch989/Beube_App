@@ -1,6 +1,7 @@
 import { Module, NestModule } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { UsersModule } from './users/users.module';
 import mongoose from 'mongoose';
 
 @Module({
@@ -12,6 +13,7 @@ import mongoose from 'mongoose';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     }),
+    UsersModule,
   ],
   controllers: [],
   providers: [],
