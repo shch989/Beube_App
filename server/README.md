@@ -11,24 +11,36 @@
 ### NestJS
 
 ```
-$ npm i -g @nestjs/cli
+$ npm install -g @nestjs/cli
 $ nest new server
 ```
 
 ## Mongoose
 
 ```
-$ npm i @nestjs/mongoose mongoose
+$ npm install @nestjs/mongoose mongoose
 ```
 
 ## Config
 
 ```
-$ npm i -g @nestjs/cli
+$ npm install -g @nestjs/cli
 ```
 
 ## Class Validator
 
 ```
-$ npm i --save class-validator class-transformer
+$ npm install --save class-validator class-transformer
+```
+
+## Swagger
+
+```
+$ npm install --save @nestjs/swagger
+```
+
+## Bcrypt
+```
+$ npm install bcrypt
+$ npm install @nestjs/bcrypt
 ```
